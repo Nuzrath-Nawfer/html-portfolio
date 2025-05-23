@@ -37,7 +37,11 @@ a {
 
 .nav a {
   color: var(--text);
-  font-weight: 500;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+.nav a:hover {
+ background-color: #0077ff;
 }
 
 .hero {
@@ -113,6 +117,11 @@ a {
 .stat h4 {
   font-size: 2rem;
   margin-bottom: 10px;
+}
+.scroll-up {
+  font-size: 2rem;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .footer {
